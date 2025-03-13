@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "MSI Ceros Implementation Checker by ILLIA C",
+    "version": "1.0",
+    "description": "Checks for TrustArc, Tealium, and utag_data on Ceros pages.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "ceros_logo.png",
+            "48": "ceros_logo.png",
+            "128": "ceros_logo.png"
+        }
+    },
+    "icons": {
+        "16": "ceros_logo.png",
+        "48": "ceros_logo.png",
+        "128": "ceros_logo.png"
+    }
+}
