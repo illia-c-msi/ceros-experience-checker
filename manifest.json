@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "MSI Ceros Implementation Checker by ILLIA C",
-    "version": "1.0",
-    "description": "Checks for TrustArc, Tealium, and utag_data on Ceros pages.",
+    "version": "1.5.3",
+    "description": "Checks for TrustArc, Tealium, Meta Tags, and utag_data on Ceros pages.",
     "permissions": [
         "activeTab",
         "scripting"

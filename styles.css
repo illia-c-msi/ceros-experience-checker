@@ -66,16 +66,15 @@ body {
 }
 
 #results li {
-    margin-bottom: 8px;
-    padding-left: 5px;
-    line-height: 1.4;
+    margin-bottom: 0;
+    padding-left: 0;
+    line-height: 1;
 }
 
 #results p {
     margin-bottom: 8px;
 }
 
-/* Styles for status */
 .status-found {
     color: green;
     font-weight: bold;
@@ -83,5 +82,23 @@ body {
 
 .status-not-found {
     color: red;
+    font-weight: bold;
+}
+
+#results table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10px;
+}
+
+#results th,
+#results td {
+    border: 1px solid #ddd;
+    padding: 4px 6px;
+    text-align: left;
+}
+
+#results th {
+    background-color: #f2f2f2;
     font-weight: bold;
 }
